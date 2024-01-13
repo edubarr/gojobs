@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "gojobs_collection",
+  "type": "collection",
+  "presets": {
+    "requestType": "http",
+    "requestUrl": "http://localhost:8080/"
+  }
+}
