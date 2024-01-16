@@ -7,6 +7,19 @@ import (
 	"net/http"
 )
 
+// DeleteOpeningHandler
+// @BasePath /api/v1
+// @Summary Delete a job opening
+// @Description Delete the job opening with the id supplied
+// @Tags openings
+// @Accept  json
+// @Produce  json
+// @Param id query string true "Opening identification"
+// @Success 200 {object} DeleteOpeningResponse
+// @Failure 400 {object} ErrorResponse
+// @Failure 404 {object} ErrorResponse
+// @Failure 500 {object} ErrorResponse
+// @Router /opening [delete]
 func DeleteOpeningHandler(context *gin.Context) {
 	id := context.Query("id")
 	if id == "" {

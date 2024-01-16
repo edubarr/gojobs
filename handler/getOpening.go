@@ -7,6 +7,18 @@ import (
 	"net/http"
 )
 
+// GetOpeningHandler
+// @BasePath /api/v1
+// @Summary Get a job opening
+// @Description Get the job opening with the id supplied
+// @Tags openings
+// @Accept  json
+// @Produce  json
+// @Param id query string true "Opening identification"
+// @Success 200 {object} GetOpeningResponse
+// @Failure 400 {object} ErrorResponse
+// @Failure 404 {object} ErrorResponse
+// @Router /opening [get]
 func GetOpeningHandler(context *gin.Context) {
 	id := context.Query("id")
 	if id == "" {
