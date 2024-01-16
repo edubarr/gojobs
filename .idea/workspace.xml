@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e315bb96-486a-4a11-ac7c-41d9875069dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/handler/request.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handler/response.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/033b136c-a438-4dda-8aaf-a1f5e6c96b3f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/033b136c-a438-4dda-8aaf-a1f5e6c96b3f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/gojobs_collection/Create Opening.bru" beforeDir="false" afterPath="$PROJECT_DIR$/docs/gojobs_collection/Create Opening.bru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler/createOpening.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/createOpening.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/routes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/gojobs_collection/Delete Opening.bru" beforeDir="false" afterPath="$PROJECT_DIR$/docs/gojobs_collection/Delete Opening.bru" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/deleteOpening.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/deleteOpening.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +87,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
